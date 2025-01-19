@@ -35,7 +35,7 @@ const CardList = ({data}) => {
         ))}
     </div>
     <div className = 'flex items-center justify-center pa4'>
-      <Button text="Previous" handleClick = {() => setoffset(offset - limit)} />
+      <Button text="Previous" handleClick = {() => setOffset(offset - limit)} />
       <Button text="Next" handleClick ={() => setOffset(offset + limit)}  />
       </div>
       </div>
